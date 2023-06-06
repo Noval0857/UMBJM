@@ -31,7 +31,9 @@ class MainActivity : AppCompatActivity() {
         navView.setNavigationItemSelectedListener {
             when(it.itemId){
                 R.id.beranda -> replaceFragment(BerandaFragment(), it.title.toString())
-                R.id.profil -> replaceFragment(ProfileFragment(), it.title.toString())
+                R.id.vdm -> replaceFragment(VisidanMisiFragment(), it.title.toString())
+                R.id.pimpinan -> replaceFragment(PimpinanFragment(), it.title.toString())
+                R.id.Identitas -> replaceFragment(IdentitasFragment(), it.title.toString())
                 R.id.fakultas -> replaceFragment(FakultasFragment(), it.title.toString())
                 R.id.akreditasi -> replaceFragment(AkreditasiFragment(), it.title.toString())
             }

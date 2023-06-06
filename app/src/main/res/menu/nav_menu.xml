@@ -14,7 +14,19 @@
     <item
         android:id="@+id/profil"
         android:title="profil"
-        android:icon="@drawable/ic_person"/>
+        android:icon="@drawable/ic_person">
+        <menu>
+            <item
+                android:id="@+id/vdm"
+                android:title="Visi dan Misi"/>
+            <item
+                android:id="@+id/Identitas"
+                android:title="Identitas"/>
+            <item
+                android:id="@+id/pimpinan"
+                android:title="Pimpinan"/>
+        </menu>
+    </item>
 
     <item
         android:id="@+id/fakultas"
