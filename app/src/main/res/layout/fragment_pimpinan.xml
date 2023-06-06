@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PimpinanFragment"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:elevation="10dp"
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/txtp1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/header"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="10sp"
+                android:gravity="center"
+                android:text="Pimpinan Universitas Muhammadiyah Banjarmasin"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/rektor"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_below="@id/txtp1"
+                android:layout_marginTop="10sp"
+                android:src="@drawable/rektor" />
+
+            <TextView
+                android:id="@+id/txtrektor1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rektor"
+                android:gravity="center"
+                android:text="Prof. Dr. H. Ahmad Khairuddin, M.Ag"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtrektor2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtrektor1"
+                android:gravity="center"
+                android:text="Rektor"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/txtrektor3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtrektor2"
+                android:gravity="center"
+                android:text="Universitas Muhammadiyah Banjarmasin"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <ImageView
+                android:id="@+id/wk1"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_below="@id/txtrektor3"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="-44dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/wk1" />
+
+            <ImageView
+                android:id="@+id/wk2"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_below="@id/txtrektor3"
+                android:layout_marginLeft="-62dp"
+                android:layout_marginTop="8dp"
+                android:layout_toRightOf="@id/wk1"
+                android:src="@drawable/wk2" />
+
+            <ImageView
+                android:id="@+id/wk3"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_below="@id/txtrektor3"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="152dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="-37dp"
+                android:src="@drawable/wk3" />
+
+            <TextView
+                android:id="@+id/txtwk1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/wk1"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                android:layout_marginLeft="10sp"
+                android:text="Hiryadi, Ns., M.Kep., Sp.Kom"
+                android:textColor="@color/black"
+                android:textSize="8sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtwk2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtwk1"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="35sp"
+                android:text="Wakil Rektor I"
+                android:textColor="@color/black"
+                android:textSize="8sp" />
+            <TextView
+                android:id="@+id/txtwk21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/wk2"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:text="M. Adriani Yulizar, S.Ag., M.A"
+                android:textColor="@color/black"
+                android:textSize="8sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtwk22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtwk21"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="Wakil Rektor II"
+                android:textColor="@color/black"
+                android:textSize="8sp" />
+            <TextView
+                android:id="@+id/txtwk31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/wk3"
+                android:layout_marginTop="10dp"
+                android:gravity="right"
+                android:layout_marginRight="10sp"
+                android:text="Alfian Mauricefle, S.Sos., M.AP"
+                android:textColor="@color/black"
+                android:textSize="8sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtwk32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtwk31"
+                android:layout_marginTop="5dp"
+                android:gravity="right"
+                android:layout_marginRight="35sp"
+                android:text="Wakil Rektor III"
+                android:textColor="@color/black"
+                android:textSize="8sp" />
+
+
+            <TextView
+                android:id="@+id/txtwk3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtwk2"
+                android:layout_marginTop="10sp"
+                android:gravity="center"
+                android:text="Universitas Muhammadiyah Banjarmasin"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#333"
+                android:layout_below="@+id/txtwk3">
+                <ImageView
+                    android:id="@+id/logowhite"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/white"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginBottom="10sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Universitas Muhammadiyah Banjarmasin"
+                    android:id="@+id/txtfooter1"
+                    android:layout_toRightOf="@+id/logowhite"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="10sp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jalan S. Parman Komplek Rumah Sakit Islam Banjarmasin"
+                    android:id="@+id/txtfooter2"
+                    android:layout_toRightOf="@+id/logowhite"
+                    android:layout_below="@+id/txtfooter1"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="10sp"
+                    android:textColor="@color/white"
+                    android:textSize="8sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Telp/Fax. (0511) 3363002"
+                    android:id="@+id/txtfooter3"
+                    android:layout_toRightOf="@+id/logowhite"
+                    android:layout_below="@id/txtfooter2"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="10sp"
+                    android:textColor="@color/white"
+                    android:textSize="8sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mail. info@umbjm.ac.id"
+                    android:id="@+id/txtfooter4"
+                    android:layout_toRightOf="@+id/logowhite"
+                    android:layout_below="@id/txtfooter3"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="10sp"
+                    android:textColor="@color/white"
+                    android:textSize="8sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

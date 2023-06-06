@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <item
+        android:id="@+id/beranda"
+        android:title="Beranda"
+        android:icon="@drawable/ic_home"
+        />
+
+    <item
+        android:id="@+id/profil"
+        android:title="profil"
+        android:icon="@drawable/ic_person"/>
+
+    <item
+        android:id="@+id/fakultas"
+        android:title="fakultas"
+        android:icon="@drawable/ic_fakultas"/>
+
+    <item
+        android:id="@+id/akreditasi"
+        android:title="akreditasi"
+        android:icon="@drawable/ic_akreditasi"/>
+
+</menu>
